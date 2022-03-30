@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>                         
+                                  
+  <head>            <!--Pruthviraj Chauhan
+                        pchauhan0000conestogac.on.ca           
+                        id = 8780000
+						
+                        Honey Patel
+                        id= 8779518
+                          
+                        Abhi Jani
+						id= 8774296
+				      -->  
+
+   <Title>Converter</Title>
+   <script src="inclass2.js" async></script>                    
+    <!--css for the website -->
+    <style>
+     html{
+	    background-color:rgb(61, 61, 214);
+	 }
+	 
+	 body{ 
+	       width:600px;
+		   height: 350px;
+		   align-self: center;
+		   margin:50px 0 0 150px; 
+		   border: 2px solid black;
+           background-color:skyblue; 
+         }
+	h1  {
+         font-weight: bold;
+         font-style:italic;
+        }    
+       .first
+	   {
+        width: 200px;
+        height: 30px;
+        background-color:aliceblue;
+        padding: 20px 20px;;
+        margin: 20px 0 0 20px;
+        border-radius: 10px;
+        float: left;  
+       }	   
+    .second
+	   {
+        width: 200px;
+        height: 30px;
+        background-color:aliceblue;
+        padding: 20px 20px;;
+        margin: 20px 0 0 20px;
+        border-radius: 10px;
+        float: left;  
+       }       
+	.third
+	  {
+        width: 200px;
+        height: 30px;
+        background-color:aliceblue;
+        padding: 20px 20px;;
+        margin: 20px 0 0 20px;
+        border-radius: 10px;
+        float: left;  
+       }
+    .forth
+	   {
+         width: 200px;
+         height: 30px;
+         background-color:aliceblue;
+         padding: 20px 20px;
+         margin: 20px 0 0 20px;
+         border-radius: 10px;
+         float: left;
+       }
+   
+    </style>
+</head>
+  
+  <body>
+           <!-- MAin title for the Website-->
+		   <center><h1>Converter</h1></center>
+		   
+		   <!-- Line to guide to user What to do-->
+           <center><h4>Just Put the value in the box which you Want to change into another-one.</h4></center>
+		  
+		  <div class="first"><!-- create div for Meters-->
+            <label>Meters:</label>
+			<input placeholder="value in Meters" type="number" id="meters" oninput="mtof()">
+           </div>
+            
+           <div  class="second">  <!-- creates div for Feets-->
+		    <label>Feets:</label>
+            <input placeholder="value in Feets" type="number" id="feets" oninput ="ftom()">		   
+           </div>		   
+           
+           <div class="third">  <!-- creates div for Celsius-->
+            <label>Celsius:</label>
+            <input placeholder="value in Celsius"type="number" id="celsius" oninput="celToFah()">  
+           </div>
+          
+           <div class="forth"> <!-- creates div for Fahrenheit-->
+            <label>Fahrenheit:</label>
+            <input type="number" id="fahrenheit"placeholder="value in Fahrenheit" oninput="fahToCel()">           
+           </div>      
+  </body>
+
+</html>

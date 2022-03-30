@@ -1,0 +1,81 @@
+body{      /*css for the whole body */       
+width: 1200px;
+height: 800px;
+margin:0%;
+background-image: url(images/background.png);
+background-position: center;  
+background-size: cover;
+padding: 0%;    
+box-sizing: border-box;
+}
+.first       /* css for the class first */ 
+{
+width: 1200px;
+height: 400px; 
+padding: 0 8%;
+margin: 10px 0 0 0;
+}
+.type        /*css for class type */   
+{
+top:25%;
+position:absolute;
+transform:translateY();
+}
+p           /*css for the p tag */
+{
+font-size: 50px;
+color:whitesmoke;
+}
+h1         /* css for the h1 tag*/
+{
+font-size: 80px;
+display: block;
+color:whitesmoke;
+}
+h2      /* css for the h2 tag */
+{ 
+font-size:  80px;
+color:whitesmoke;
+}
+.type button   /*css for the button in type class */
+{ 
+height: 80px;
+width: 300px;
+font-size: 25px;
+font-weight: bold;
+color:white;
+background: transparent;
+border:5px solid rgb(243, 239, 239);
+}
+.time  p /* css for the p tag in type class */
+{
+font-size:80px;
+margin:0 0 0px 20px;
+}
+.text  /*css for the text class */ 
+{
+font-size:50px;
+color:red;
+}
+.rocket   /* css for the rocket class*/
+{
+width:250px;
+position:absolute;
+right:30%;
+bottom: 0;
+animation: rocket 5s linear infinite;    /* animation for the rocket image */
+}
+
+@keyframes rocket   /*function in order to set the opacity of the rocket image */
+{
+0%
+{
+bottom: 0;
+opacity: 0;
+}
+100%
+{
+bottom:90%;
+opacity: 1;
+}
+}
